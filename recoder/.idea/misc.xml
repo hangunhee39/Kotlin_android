@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kotlin_android/recoder/app/src/main/res/drawable/shape_oval_button.xml" value="0.2375" />
+        <entry key="..\:/Kotlin_android/recoder/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/recoder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.221" />
         <entry key="..\:/recoder/app/src/main/res/drawable/ic_play.xml" value="0.221" />
         <entry key="..\:/recoder/app/src/main/res/drawable/ic_record.xml" value="0.221" />
