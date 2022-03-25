@@ -140,6 +140,10 @@ class MainActivity : AppCompatActivity() {
         },
         itemClickListener = {
             search(it)
+            //enter키 누룬뒤 키보드 닫기
+            val imm = getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(binding.searchEditText.windowToken, 0);
+            binding.searchEditText.setText(it)
         })
         binding.historyRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.historyRecyclerView.adapter = historyAdapter
