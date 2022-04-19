@@ -256,6 +256,8 @@ class PlayerFragment : Fragment(R.layout.fragment_player) {
     }
 
     private fun playMusic(musicModel: MusicModel) {
+        if(model.currentMusicModel()?.id == musicModel.id) return
+
         model.updateCurrentPosition(musicModel)
         player?.seekTo(model.currentPosition, 0)
         player?.play()
