@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">music_play</string>
+    <string name="playList">재생목록</string>
+</resources>
