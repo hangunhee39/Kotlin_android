@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ott_intro</string>
+    <string name="buttonText">2주 무료 이용</string>
+    <string name="intro_description">영화, 드라마, 예능 등 8만 편의 작품</string>
+    <string name="intro_button_2">2주 무료 이용</string>
+    <string name="logo">Watching</string>
+    <string name="login">로그인</string>
+    <string name="intro_description_2">지금 무료로\n무제한 감상 시작</string>
+    <string name="part2_intro_text1">다양한 디바이스에서\n자유롭게 감상</string>
+    <string name="part2_intro_text2">PC, 태블릿, 펀, 크롬캐스트, TV\n어디서나 최고의 화질로</string>
+    <string name="part3_intro_text1">5억개 평가 데이터 기반\n정확한 추천</string>
+    <string name="part3_intro_text2">취향에 안 맞는 작품에\n두 시간을 낭비할 순 없으니까</string>
+</resources>
