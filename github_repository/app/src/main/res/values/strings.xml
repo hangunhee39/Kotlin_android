@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">github_repository</string>
+    <string name="loginText">GitHub_Login</string>
+    <string name="loading">로딩 중..</string>
+    <string name="searchButton">검색</string>
+    <string name="editTextVIewText">여기에 검색하세요.</string>
+    <string name="emptyResultText">검색결과가 없습니다.</string>
+    <string name="updateDate">업데이트 시간</string>
+    <string name="description">설명</string>
+    <string name="emptyLiked">찜한 레포지티가 없습니다.</string>
+</resources>
