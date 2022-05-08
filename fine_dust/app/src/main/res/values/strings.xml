@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fine_dust</string>
+    <string name="precautions">자료 출처: 환경부/한국환경공단\n주의 사항: 해당 기관이 제공하는 자료는 “인증을 받지 않은 실시간 자료” 이므로 자료 오류 및 표출방식에 따라 값이 다를 수 있음</string>
+    <string name="errorText">예기치 못한 문제가 발생했습니다. \n잠시후 다시 시도해 주세요.</string>
+    <string name="findDust">미세먼지</string>
+    <string name="loading">로딩중</string>
+</resources>
