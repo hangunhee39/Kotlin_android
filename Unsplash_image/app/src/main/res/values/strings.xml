@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Unsplash_image</string>
+    <string name="SearchEditTextView">이미지를 검색해 보세요.</string>
+    <string name="errorText">문제가 발생했습니다.\n새로고침 해주세요.</string>
+</resources>
