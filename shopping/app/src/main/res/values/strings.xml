@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">shopping</string>
+    <string name="homeText">쇼핑</string>
+    <string name="myText">My</string>
+    <string name="emptyProductText">상품 리스트가 존재하지 않습니다.</string>
+    <string name="orderText">주문하기</string>
+    <string name="logoutText">로그아웃</string>
+    <string name="emptyOrderText">주문한 제품이 없습니다.</string>
+    <string name="loginText">구글로그인이 필요합니다</string>
+</resources>
