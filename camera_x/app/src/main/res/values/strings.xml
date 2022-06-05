@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">camera_x</string>
+    <string name="capture">촬영</string>
 </resources>
