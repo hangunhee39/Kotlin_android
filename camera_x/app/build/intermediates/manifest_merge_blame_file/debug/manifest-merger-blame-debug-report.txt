@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="hgh.project.camera_x"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:5:5-64
+11-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.FLASHLIGHT" />
+12-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:6:5-68
+12-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:6:22-66
+13
+14    <application
+14-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:8:5-25:19
+15        android:name="hgh.project.camera_x.CameraXApplication"
+15-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:15:9-43
+16        android:allowBackup="true"
+16-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:11:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Camera_x" >
+25-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:14:9-46
+26        <activity
+26-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:16:9-24:20
+27            android:name="hgh.project.camera_x.MainActivity"
+27-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:17:13-41
+28            android:exported="true" >
+28-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:18:13-36
+29            <intent-filter>
+29-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:20:17-69
+30-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:22:17-77
+32-->D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:26:9-35:19
+37            android:name="androidx.camera.core.impl.MetadataHolderService"
+37-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:27:13-75
+38            android:enabled="false"
+38-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:28:13-36
+39            android:exported="false" >
+39-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:29:13-37
+40            <meta-data
+40-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:32:13-34:89
+41                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+41-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:33:17-103
+42                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+42-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:34:17-86
+43        </service>
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="hgh.project.camera_x.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>
