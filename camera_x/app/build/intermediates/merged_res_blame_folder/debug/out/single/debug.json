@@ -20,6 +20,10 @@
         "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\drawable_corner_4_back_24.xml.flat",
+        "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\drawable\\corner_4_back_24.xml"
+    },
+    {
         "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },

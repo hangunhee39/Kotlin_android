@@ -12,6 +12,8 @@ MERGED from [androidx.camera:camera-view:1.1.0-beta01] C:\Users\hgh\.gradle\cach
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hgh\.gradle\caches\transforms-3\65d1806e274329aba941ec41a8fbd7b9\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\85e9a8af8ed4dbd34eda477688d5cc96\transformed\camera-lifecycle-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\hgh\.gradle\caches\transforms-3\9c29197f62ba4fa6c86f9f96eaadf243\transformed\glide-transformations-4.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\b4bdaab4dde6835c244443e72a2e1b24\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hgh\.gradle\caches\transforms-3\bd96202844677c6ffff7ddee94f67721\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\hgh\.gradle\caches\transforms-3\866d0a27f60ab3b3c62b2922aac7d5e2\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -36,10 +38,11 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\h
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\5ed40bfc20b2e83196608eb19810b347\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\hgh\.gradle\caches\transforms-3\1ac93c5e760a99df0791676ab0dd2c8b\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\e50543719087e4e0d9eed540cacbdf66\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8bde4fc60417cfd6fcf9a2503db3c329\transformed\gifdecoder-4.13.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\5f6791cabcf7ae297e8689ef537c9936\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\9a8c1bd823b0133b02edde72be663f86\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\hgh\.gradle\caches\transforms-3\920d1b2f77f7f00044f2ae56ceca9fde\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\hgh\.gradle\caches\transforms-3\e6d5b26d4f1271669854a4a122d5c6d8\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\46678b274d19ceaa2ace84fd4677d921\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
@@ -83,18 +86,22 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hgh\.gra
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hgh\.gradle\caches\transforms-3\92c6b98093f4d4740952f38ea54d4650\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:25:5-36:19
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.camera:camera-core:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\45bdb9a5114167213654f100e6eec632\transformed\camera-core-1.1.0-beta01\AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.camera:camera-core:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\45bdb9a5114167213654f100e6eec632\transformed\camera-core-1.1.0-beta01\AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8bde4fc60417cfd6fcf9a2503db3c329\transformed\gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8bde4fc60417cfd6fcf9a2503db3c329\transformed\gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\5f6791cabcf7ae297e8689ef537c9936\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\5f6791cabcf7ae297e8689ef537c9936\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -147,6 +154,10 @@ MERGED from [androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\c
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\d6d53889a1ba9ad12f32ac5df19fb853\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\85e9a8af8ed4dbd34eda477688d5cc96\transformed\camera-lifecycle-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\85e9a8af8ed4dbd34eda477688d5cc96\transformed\camera-lifecycle-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\hgh\.gradle\caches\transforms-3\9c29197f62ba4fa6c86f9f96eaadf243\transformed\glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\hgh\.gradle\caches\transforms-3\9c29197f62ba4fa6c86f9f96eaadf243\transformed\glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\b4bdaab4dde6835c244443e72a2e1b24\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\b4bdaab4dde6835c244443e72a2e1b24\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hgh\.gradle\caches\transforms-3\bd96202844677c6ffff7ddee94f67721\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -195,14 +206,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\hgh\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\hgh\.gradle\caches\transforms-3\1ac93c5e760a99df0791676ab0dd2c8b\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\e50543719087e4e0d9eed540cacbdf66\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\e50543719087e4e0d9eed540cacbdf66\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8bde4fc60417cfd6fcf9a2503db3c329\transformed\gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8bde4fc60417cfd6fcf9a2503db3c329\transformed\gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hgh\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\5f6791cabcf7ae297e8689ef537c9936\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\5f6791cabcf7ae297e8689ef537c9936\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\9a8c1bd823b0133b02edde72be663f86\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\9a8c1bd823b0133b02edde72be663f86\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hgh\.gradle\caches\transforms-3\f402c227810f854944e859f834a3003b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\hgh\.gradle\caches\transforms-3\920d1b2f77f7f00044f2ae56ceca9fde\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\hgh\.gradle\caches\transforms-3\920d1b2f77f7f00044f2ae56ceca9fde\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\hgh\.gradle\caches\transforms-3\e6d5b26d4f1271669854a4a122d5c6d8\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41

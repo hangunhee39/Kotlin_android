@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">camera_x</string>
     <string name="capture">촬영</string>
+    <string name="imagePreview">이미지 미리보기</string>
 </resources>

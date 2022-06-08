@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kotlin_android/camera_x/app/src/main/res/drawable/coner_4_back_24.xml" value="0.2155" />
+        <entry key="..\:/Kotlin_android/camera_x/app/src/main/res/drawable/corner_4_back_24.xml" value="0.14" />
+        <entry key="..\:/Kotlin_android/camera_x/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2155" />
         <entry key="..\:/Kotlin_android/camera_x/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
       </map>
     </option>

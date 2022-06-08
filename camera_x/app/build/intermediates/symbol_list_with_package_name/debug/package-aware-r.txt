@@ -1209,6 +1209,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color black_24
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2454,6 +2455,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable corner_4_back_24
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2726,6 +2728,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2860,6 +2863,7 @@ id performance
 id pin
 id position
 id postLayout
+id previewImageVIew
 id progress_circular
 id progress_horizontal
 id radio
@@ -3237,6 +3241,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string imagePreview
 string item_view_role_description
 string label
 string m3_ref_typeface_brand_medium
