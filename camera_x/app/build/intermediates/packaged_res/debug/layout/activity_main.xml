@@ -51,11 +51,23 @@
         android:id="@+id/previewImageVIew"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="@id/captureButton"
-        app:layout_constraintTop_toTopOf="@id/captureButton"
         android:layout_marginStart="16dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/corner_4_back_24"
         android:contentDescription="@string/imagePreview"
-        android:background="@drawable/corner_4_back_24"/>
+        app:layout_constraintBottom_toBottomOf="@id/captureButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/captureButton" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/flashSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/flash"
+        app:layout_constraintBottom_toBottomOf="@id/captureButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/captureButton"
+        android:visibility="gone"
+        tools:visibility="visible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

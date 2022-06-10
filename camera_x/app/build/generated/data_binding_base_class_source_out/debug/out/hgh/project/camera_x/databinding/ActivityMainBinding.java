@@ -13,6 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.switchmaterial.SwitchMaterial;
 import hgh.project.camera_x.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -24,6 +25,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final Button captureButton;
+
+  @NonNull
+  public final SwitchMaterial flashSwitch;
 
   @NonNull
   public final Guideline guideline;
@@ -38,10 +42,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ConstraintLayout viewFinderContainer;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button captureButton,
-      @NonNull Guideline guideline, @NonNull ImageView previewImageVIew,
-      @NonNull PreviewView viewFinder, @NonNull ConstraintLayout viewFinderContainer) {
+      @NonNull SwitchMaterial flashSwitch, @NonNull Guideline guideline,
+      @NonNull ImageView previewImageVIew, @NonNull PreviewView viewFinder,
+      @NonNull ConstraintLayout viewFinderContainer) {
     this.rootView = rootView;
     this.captureButton = captureButton;
+    this.flashSwitch = flashSwitch;
     this.guideline = guideline;
     this.previewImageVIew = previewImageVIew;
     this.viewFinder = viewFinder;
@@ -81,6 +87,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.flashSwitch;
+      SwitchMaterial flashSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (flashSwitch == null) {
+        break missingId;
+      }
+
       id = R.id.guideline;
       Guideline guideline = ViewBindings.findChildViewById(rootView, id);
       if (guideline == null) {
@@ -105,8 +117,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, captureButton, guideline,
-          previewImageVIew, viewFinder, viewFinderContainer);
+      return new ActivityMainBinding((ConstraintLayout) rootView, captureButton, flashSwitch,
+          guideline, previewImageVIew, viewFinder, viewFinderContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

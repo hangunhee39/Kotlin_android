@@ -8,12 +8,20 @@
         "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_image_list.xml.flat",
+        "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\layout\\activity_image_list.xml"
+    },
+    {
         "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\layout_photo_item.xml.flat",
+        "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\layout\\photo_item.xml"
     },
     {
         "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

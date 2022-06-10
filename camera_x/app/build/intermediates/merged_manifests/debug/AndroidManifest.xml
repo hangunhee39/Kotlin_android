@@ -24,6 +24,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Camera_x" >
         <activity
+            android:name="hgh.project.camera_x.ImageListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
             android:name="hgh.project.camera_x.MainActivity"
             android:exported="true" >
             <intent-filter>

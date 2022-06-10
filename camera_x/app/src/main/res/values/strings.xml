@@ -2,4 +2,8 @@
     <string name="app_name">camera_x</string>
     <string name="capture">촬영</string>
     <string name="imagePreview">이미지 미리보기</string>
+    <string name="flash">flash</string>
+    <string name="delete">삭제</string>
+
+    <string name="imagesPage">(%d/%d)</string>
 </resources>

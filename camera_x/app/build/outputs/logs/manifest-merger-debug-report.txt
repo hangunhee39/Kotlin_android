@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\hgh\.gradle\caches\transforms-3\6ddf2854891938975fbfa48322e2bcd6\transformed\viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\6c81b2a28c1dc74005350aa1dc87657b\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hgh\.gradle\caches\transforms-3\1972531f56b610244434d5390bec6f54\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
@@ -14,7 +14,8 @@ MERGED from [androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\hgh\.gradle\c
 MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\85e9a8af8ed4dbd34eda477688d5cc96\transformed\camera-lifecycle-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\hgh\.gradle\caches\transforms-3\9c29197f62ba4fa6c86f9f96eaadf243\transformed\glide-transformations-4.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\b4bdaab4dde6835c244443e72a2e1b24\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\63f1ff77dad9ffe46fff0232e6b1cec3\transformed\viewpager2-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [me.relex:circleindicator:2.1.6] C:\Users\hgh\.gradle\caches\transforms-3\e9db5aaa5bb77804566eb2371874c5c0\transformed\circleindicator-2.1.6\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hgh\.gradle\caches\transforms-3\bd96202844677c6ffff7ddee94f67721\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\hgh\.gradle\caches\transforms-3\866d0a27f60ab3b3c62b2922aac7d5e2\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\hgh\.gradle\caches\transforms-3\a1f13cc0e3ff183ee0bdf2cc7d677d16\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
@@ -27,10 +28,10 @@ MERGED from [androidx.transition:transition:1.2.0] C:\Users\hgh\.gradle\caches\t
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\3e95cf769ad47224fc976447c9a19c83\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\7c0ea3c407177bc42858e1a03eb2d703\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-core:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\45bdb9a5114167213654f100e6eec632\transformed\camera-core-1.1.0-beta01\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\hgh\.gradle\caches\transforms-3\c1a1a32abb005aae46072d09e083f8f5\transformed\recyclerview-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\8c86d60e31ecc9b8c6036e7feee09a6a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0bcaf791ff50993e77c8308306818b83\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\e8d78942842e4749837a1f33ca3e068b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\e9deb67a89ab8947a2a3af3afa4c656b\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\b0cbde3fdb6c0db7f9e0e5bbe61fd3f8\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\af11966b09b302805e3cf6788f225a1d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -53,33 +54,33 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hgh\.gradle\cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\46197eece4813ea272dedaf6d97f0704\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\bf11d5f709f8b4982d65ae78eb7a0a6a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\fa71066934ce7b959416ab07c2d56d3b\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:5:5-64
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
 		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:6:5-68
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:6:5-69
 	android:name
 		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:6:22-66
 application
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:8:5-25:19
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hgh\.gradle\caches\transforms-3\1972531f56b610244434d5390bec6f54\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hgh\.gradle\caches\transforms-3\1972531f56b610244434d5390bec6f54\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hgh\.gradle\caches\transforms-3\92c6b98093f4d4740952f38ea54d4650\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -105,35 +106,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hg
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:14:9-46
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:15:9-46
 	android:name
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:15:9-43
-activity#hgh.project.camera_x.MainActivity
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:16:9-24:20
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:9:9-43
+activity#hgh.project.camera_x.ImageListActivity
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:16:9-19:40
 	android:exported
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:19:13-37
+	android:theme
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:18:13-69
 	android:name
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:17:13-46
+activity#hgh.project.camera_x.MainActivity
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:exported
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Kotlin_android\camera_x\app\src\main\AndroidManifest.xml
@@ -158,8 +167,10 @@ MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\hgh\.gradle\cache
 MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\hgh\.gradle\caches\transforms-3\9c29197f62ba4fa6c86f9f96eaadf243\transformed\glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\hgh\.gradle\caches\transforms-3\8c07819a5f6d26cc5bf8d342d3f8c688\transformed\glide-4.13.0\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\b4bdaab4dde6835c244443e72a2e1b24\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\b4bdaab4dde6835c244443e72a2e1b24\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\63f1ff77dad9ffe46fff0232e6b1cec3\transformed\viewpager2-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\63f1ff77dad9ffe46fff0232e6b1cec3\transformed\viewpager2-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [me.relex:circleindicator:2.1.6] C:\Users\hgh\.gradle\caches\transforms-3\e9db5aaa5bb77804566eb2371874c5c0\transformed\circleindicator-2.1.6\AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.6] C:\Users\hgh\.gradle\caches\transforms-3\e9db5aaa5bb77804566eb2371874c5c0\transformed\circleindicator-2.1.6\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hgh\.gradle\caches\transforms-3\bd96202844677c6ffff7ddee94f67721\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hgh\.gradle\caches\transforms-3\bd96202844677c6ffff7ddee94f67721\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\hgh\.gradle\caches\transforms-3\866d0a27f60ab3b3c62b2922aac7d5e2\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
@@ -184,14 +195,14 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hgh\.gradle\
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\7c0ea3c407177bc42858e1a03eb2d703\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-core:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\45bdb9a5114167213654f100e6eec632\transformed\camera-core-1.1.0-beta01\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.camera:camera-core:1.1.0-beta01] C:\Users\hgh\.gradle\caches\transforms-3\45bdb9a5114167213654f100e6eec632\transformed\camera-core-1.1.0-beta01\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\hgh\.gradle\caches\transforms-3\c1a1a32abb005aae46072d09e083f8f5\transformed\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\hgh\.gradle\caches\transforms-3\c1a1a32abb005aae46072d09e083f8f5\transformed\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\8c86d60e31ecc9b8c6036e7feee09a6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\8c86d60e31ecc9b8c6036e7feee09a6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0bcaf791ff50993e77c8308306818b83\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\0bcaf791ff50993e77c8308306818b83\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\e8d78942842e4749837a1f33ca3e068b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\hgh\.gradle\caches\transforms-3\e8d78942842e4749837a1f33ca3e068b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\e9deb67a89ab8947a2a3af3afa4c656b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\e9deb67a89ab8947a2a3af3afa4c656b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\b0cbde3fdb6c0db7f9e0e5bbe61fd3f8\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\hgh\.gradle\caches\transforms-3\b0cbde3fdb6c0db7f9e0e5bbe61fd3f8\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] C:\Users\hgh\.gradle\caches\transforms-3\22cd249c14ccbdbc452d51608e56dc20\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41

@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_image_list.xml",
+        "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\layout\\activity_image_list.xml"
+    },
+    {
+        "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\photo_item.xml",
+        "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\layout\\photo_item.xml"
+    },
+    {
         "merged": "D:\\Kotlin_android\\camera_x\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "D:\\Kotlin_android\\camera_x\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
