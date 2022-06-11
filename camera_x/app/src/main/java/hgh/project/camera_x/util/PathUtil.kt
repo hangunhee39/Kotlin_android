@@ -15,7 +15,6 @@ import java.io.File
 import java.io.FileOutputStream
 
 object PathUtil {
-
     fun getPath(context: Context, uri: Uri): String? {
         if (DocumentsContract.isDocumentUri(context, uri)) {
             if (isExternalStorageDocument(uri)) {

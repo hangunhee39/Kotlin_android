@@ -261,9 +261,7 @@ class MainActivity : AppCompatActivity() {
                     flashLight(false)
                 }
             })
-
     }
-
     //플래시 활성
     private fun flashLight(light: Boolean){
         val hasFlash =camera?.cameraInfo?.hasFlashUnit() ?:false
