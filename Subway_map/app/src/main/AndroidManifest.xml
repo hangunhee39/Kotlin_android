@@ -8,9 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Subway_map">
+        android:theme="@style/Theme.Subway_map"
+        android:name=".SubwayMapApplication">
         <activity
-            android:name=".MainActivity"
+            android:name=".presenter.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
