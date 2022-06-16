@@ -14,7 +14,7 @@ interface StationDao {
     @Transaction
     @Query("SELECT * FROM StationEntity")
     fun getStationWithSubways(): Flow<List<StationWithSubwaysEntity>>
-    //Flow : observable 하게 데이터가 변경할때마다 반영
+    //Flow : observable 하게 데이터가 변경할때마다 반영 (insert 단위로 반영)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun  insertStations(station: List<StationEntity>)
@@ -24,4 +24,18 @@ interface StationDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun  insertCrossReferences(reference: List<StationSubwayCrossRefEntity>)
+
+    @Transaction        //transaction 오류 발생하면 rollback
+    suspend fun insertStationSubways(stationSubways: List<Pair<StationEntity, SubwayEntity>>) {
+        insertStations(stationSubways.map { it.first })
+        insertSubways(stationSubways.map { it.second })
+        insertCrossReferences(
+            stationSubways.map { (station, subway) ->
+                StationSubwayCrossRefEntity(
+                    station.stationName,
+                    subway.subwayId
+                )
+            }
+        )
+    }
 }

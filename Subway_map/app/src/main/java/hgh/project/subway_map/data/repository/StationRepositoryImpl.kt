@@ -26,27 +26,20 @@ class StationRepositoryImpl(
             .map { it.toStations() }
             .flowOn(dispatcher)
 
+    //firebase 랑 내부 데이터 똑같게 하기
     override suspend fun refreshStations() = withContext(dispatcher) {
-        val fileUpdatedTimeMillis = stationApi.getStationDataUpdatedTimeMillis()
-        val lastDatabaseUpdatedTimeMillis = preferenceManager.getLong(KEY_LAST_DATABASE_UPDATED_TIME_MILLIS)
+        val fileUpdatedTimeMillis = stationApi.getStationDataUpdatedTimeMillis()    //firebase 갱신 사간
+        val lastDatabaseUpdatedTimeMillis =
+            preferenceManager.getLong(KEY_LAST_DATABASE_UPDATED_TIME_MILLIS)    //repository 갱신 시간
 
         if (lastDatabaseUpdatedTimeMillis == null || fileUpdatedTimeMillis > lastDatabaseUpdatedTimeMillis) {
-            val stationSubways = stationApi.getStationSubways()
-            stationDao.insertStations(stationSubways.map { it.first })
-            stationDao.insertSubways(stationSubways.map { it.second })
-            stationDao.insertCrossReferences(
-                stationSubways.map { (station, subway) ->
-                    StationSubwayCrossRefEntity(
-                        station.stationName,
-                        subway.subwayId
-                    )
-                }
-            )
+            stationDao.insertStationSubways(stationApi.getStationSubways())
             preferenceManager.putLong(KEY_LAST_DATABASE_UPDATED_TIME_MILLIS, fileUpdatedTimeMillis)
         }
     }
 
     companion object {
-        private const val KEY_LAST_DATABASE_UPDATED_TIME_MILLIS = "KEY_LAST_DATABASE_UPDATED_TIME_MILLIS"
+        private const val KEY_LAST_DATABASE_UPDATED_TIME_MILLIS =
+            "KEY_LAST_DATABASE_UPDATED_TIME_MILLIS"
     }
 }

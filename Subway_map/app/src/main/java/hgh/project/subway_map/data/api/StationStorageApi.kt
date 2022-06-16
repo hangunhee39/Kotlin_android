@@ -15,9 +15,11 @@ class StationStorageApi(
 
     private val sheetReference = firebaseStorage.reference.child(STATION_DATA_FILE_NAME)
 
+    //업데이트된 시간 가져오기
     override suspend fun getStationDataUpdatedTimeMillis(): Long =
         sheetReference.metadata.await().updatedTimeMillis
 
+    //firebase 에서 파일 가져오기
     override suspend fun getStationSubways(): List<Pair<StationEntity, SubwayEntity>> {
         val downloadSizeBytes = sheetReference.metadata.await().sizeBytes
         val byteArray = sheetReference.getBytes(downloadSizeBytes).await()
