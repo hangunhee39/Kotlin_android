@@ -28,7 +28,7 @@ class StationStorageApi(
             .lines()
             .drop(1)
             .map { it.split(",") }
-            .map { StationEntity(it[1]) to  SubwayEntity(it[0].toInt()) }
+            .map {StationEntity(it[1]) to SubwayEntity(it[0].toInt()) }
     }
 
 }

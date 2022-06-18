@@ -1,10 +1,13 @@
 package hgh.project.subway_map.data.repository
 
 import hgh.project.subway_map.data.api.StationApi
+import hgh.project.subway_map.data.api.StationArrivalsApi
 import hgh.project.subway_map.data.db.StationDao
 import hgh.project.subway_map.data.db.entity.StationSubwayCrossRefEntity
+import hgh.project.subway_map.data.db.entity.mapper.toArrivalInformation
 import hgh.project.subway_map.data.db.entity.mapper.toStations
 import hgh.project.subway_map.data.preference.PreferenceManager
+import hgh.project.subway_map.domain.ArrivalInformation
 import hgh.project.subway_map.domain.Station
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
@@ -14,6 +17,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 
 class StationRepositoryImpl(
+    private val stationArrivalsApi:StationArrivalsApi,
     private val stationApi: StationApi,
     private val stationDao: StationDao,
     private val preferenceManager: PreferenceManager,
@@ -37,6 +41,17 @@ class StationRepositoryImpl(
             preferenceManager.putLong(KEY_LAST_DATABASE_UPDATED_TIME_MILLIS, fileUpdatedTimeMillis)
         }
     }
+
+    override suspend fun getStationArrivals(stationName: String): List<ArrivalInformation> = withContext(dispatcher) {
+        stationArrivalsApi.getRealtimeStationArrivals(stationName)
+            .body()
+            ?.realtimeArrivalList
+            ?.toArrivalInformation()
+            ?.distinctBy { it.direction }
+            ?.sortedBy { it.subway }
+            ?: throw RuntimeException("도착 정보를 불러오는 데에 실패했습니다.")
+    }
+
 
     companion object {
         private const val KEY_LAST_DATABASE_UPDATED_TIME_MILLIS =

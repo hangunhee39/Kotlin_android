@@ -13,11 +13,7 @@ class SubwayMapApplication: Application() {
         super.onCreate()
         startKoin {
             androidLogger(
-                if(BuildConfig.DEBUG){
-                    Level.DEBUG
-                }else{
-                    Level.NONE
-                }
+                Level.ERROR
             )
             androidContext(this@SubwayMapApplication)
             modules(appModule)

@@ -4,9 +4,16 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import hgh.project.subway_map.databinding.FragmentStationsBinding
 import hgh.project.subway_map.domain.Station
+import hgh.project.subway_map.extension.toGone
+import hgh.project.subway_map.extension.toVisible
 import org.koin.android.scope.ScopeFragment
 
 class StationsFragment: ScopeFragment(), StationsContract.View {
@@ -41,14 +48,38 @@ class StationsFragment: ScopeFragment(), StationsContract.View {
     }
 
     override fun showLoadingIndicator() {
-        TODO("Not yet implemented")
+        binding?.progressBar?.toVisible()
     }
 
     override fun hideLoadingIndicator() {
-        TODO("Not yet implemented")
+        binding?.progressBar?.toGone()
     }
 
-    override fun showStations(Stations: List<Station>) {
-        TODO("Not yet implemented")
+    override fun showStations(stations: List<Station>) {
+        (binding?.recyclerView?.adapter as? StationsAdapter)?.run {
+            this.data = stations
+            notifyDataSetChanged()
+        }
+    }
+
+    private fun initViews() {
+        binding?.recyclerView?.apply {
+            layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
+            adapter = StationsAdapter()
+            itemAnimator = DefaultItemAnimator()
+            addItemDecoration(DividerItemDecoration(context, RecyclerView.VERTICAL))    //recyclerView 구분선 만들기
+        }
+    }
+
+    private fun bindViews() {
+        //검색
+        binding?.searchEditText?.addTextChangedListener { editable ->
+            presenter.filterStations(editable.toString())
+        }
+
+        (binding?.recyclerView?.adapter as? StationsAdapter)?.apply {
+            onItemClickListener = { station -> }
+            onFavoriteClickListener = { station -> }
+        }
     }
 }
