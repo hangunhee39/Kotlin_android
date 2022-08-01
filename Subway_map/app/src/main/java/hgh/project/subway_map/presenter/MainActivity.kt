@@ -8,6 +8,7 @@ import hgh.project.subway_map.R
 import hgh.project.subway_map.databinding.ActivityMainBinding
 import hgh.project.subway_map.extension.toGone
 import hgh.project.subway_map.extension.toVisible
+import hgh.project.subway_map.presenter.stationarrivals.StationArrivalsFragmentArgs
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     //appBar 에서 뒤로가기 활성화
     override fun onSupportNavigateUp(): Boolean {
-        return navigationController.navigateUp() ||super.onSupportNavigateUp()
+        return navigationController.navigateUp() || super.onSupportNavigateUp()
     }
 
     private fun initViews(){
@@ -37,8 +38,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun bindViews(){
-        navigationController.addOnDestinationChangedListener { _,destination, _ ->
+        navigationController.addOnDestinationChangedListener { _,destination, argument ->
             if (destination.id == R.id.station_arrivals_dest){
+                title = StationArrivalsFragmentArgs.fromBundle(argument!!).station.name
                 binding.toolbar.toVisible()
             }else{
                 binding.toolbar.toGone()

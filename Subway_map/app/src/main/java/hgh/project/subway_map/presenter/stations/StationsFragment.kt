@@ -1,11 +1,14 @@
 package hgh.project.subway_map.presenter.stations
 
+import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -39,6 +42,7 @@ class StationsFragment: ScopeFragment(), StationsContract.View {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        hideKeyboard()
         presenter.onDestroyView()
     }
 
@@ -78,8 +82,19 @@ class StationsFragment: ScopeFragment(), StationsContract.View {
         }
 
         (binding?.recyclerView?.adapter as? StationsAdapter)?.apply {
-            onItemClickListener = { station -> }
-            onFavoriteClickListener = { station -> }
+            onItemClickListener = { station ->      //navigation 액션 실행(stationArrivals 창으로 이동)
+                val action = StationsFragmentDirections.toStationArrivalsAction(station)
+                StationsFragmentDirections
+                findNavController().navigate(action)
+            }
+            onFavoriteClickListener = { station ->
+                presenter.toggleStationFavorite(station)
+            }
         }
+    }
+
+    private fun hideKeyboard(){
+        val inputMethodManager = context?.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputMethodManager.hideSoftInputFromWindow(activity?.currentFocus?.windowToken, 0)
     }
 }

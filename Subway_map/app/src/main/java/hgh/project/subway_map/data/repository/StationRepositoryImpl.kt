@@ -5,6 +5,7 @@ import hgh.project.subway_map.data.api.StationArrivalsApi
 import hgh.project.subway_map.data.db.StationDao
 import hgh.project.subway_map.data.db.entity.StationSubwayCrossRefEntity
 import hgh.project.subway_map.data.db.entity.mapper.toArrivalInformation
+import hgh.project.subway_map.data.db.entity.mapper.toStationEntity
 import hgh.project.subway_map.data.db.entity.mapper.toStations
 import hgh.project.subway_map.data.preference.PreferenceManager
 import hgh.project.subway_map.domain.ArrivalInformation
@@ -27,7 +28,7 @@ class StationRepositoryImpl(
     override val stations: Flow<List<Station>> =
         stationDao.getStationWithSubways()
             .distinctUntilChanged()         //과도한 갱신 막기
-            .map { it.toStations() }
+            .map { stations -> stations.toStations().sortedByDescending { it.isFavorited } }
             .flowOn(dispatcher)
 
     //firebase 랑 내부 데이터 똑같게 하기
@@ -47,10 +48,15 @@ class StationRepositoryImpl(
             .body()
             ?.realtimeArrivalList
             ?.toArrivalInformation()
-            ?.distinctBy { it.direction }
-            ?.sortedBy { it.subway }
+            ?.distinctBy { it.direction }       //중복처리
+            ?.sortedBy { it.subway }            //같은 호선 묶기
             ?: throw RuntimeException("도착 정보를 불러오는 데에 실패했습니다.")
     }
+
+    override suspend fun updateStation(station: Station) = withContext(dispatcher) {
+        stationDao.updateStation(station.toStationEntity())
+    }
+
 
 
     companion object {

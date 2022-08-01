@@ -13,6 +13,9 @@ import hgh.project.subway_map.data.preference.PreferenceManager
 import hgh.project.subway_map.data.preference.SharedPreferenceManager
 import hgh.project.subway_map.data.repository.StationRepository
 import hgh.project.subway_map.data.repository.StationRepositoryImpl
+import hgh.project.subway_map.presenter.stationarrivals.StationArrivalsContract
+import hgh.project.subway_map.presenter.stationarrivals.StationArrivalsFragment
+import hgh.project.subway_map.presenter.stationarrivals.StationArrivalsPresenter
 import hgh.project.subway_map.presenter.stations.StationPresenter
 import hgh.project.subway_map.presenter.stations.StationsContract
 import hgh.project.subway_map.presenter.stations.StationsFragment
@@ -69,6 +72,10 @@ val appModule = module {
     // Presentation
     scope<StationsFragment> {
         scoped<StationsContract.Presenter> { StationPresenter(getSource(), get()) } //프래그먼트 종료시 presenter 종료 , scope 내에서는 서로 공유 가능
+    }
+
+    scope<StationArrivalsFragment> {
+        scoped<StationArrivalsContract.Presenter> { StationArrivalsPresenter(getSource(), get(), get()) }
     }
 
 }

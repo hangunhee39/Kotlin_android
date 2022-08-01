@@ -20,6 +20,10 @@
         android:name="hgh.project.subway_map.presenter.stationarrivals.StationArrivalsFragment"
         tools:layout="@layout/fragment_station_arrivals">
 
+        <argument
+            android:name="station"
+            app:argType="hgh.project.subway_map.domain.Station"/>
+
     </fragment>
 
 
