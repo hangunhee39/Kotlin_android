@@ -13,8 +13,8 @@
         <action
             android:id="@+id/to_station_arrivals_action"
             app:destination="@id/station_arrivals_dest"/>
-    </fragment>
 
+    </fragment>
     <fragment
         android:id="@+id/station_arrivals_dest"
         android:name="hgh.project.subway_map.presenter.stationarrivals.StationArrivalsFragment"
@@ -25,7 +25,4 @@
             app:argType="hgh.project.subway_map.domain.Station"/>
 
     </fragment>
-
-
-
 </navigation>

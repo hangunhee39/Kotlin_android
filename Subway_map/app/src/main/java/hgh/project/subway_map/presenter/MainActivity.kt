@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     private fun bindViews(){
         navigationController.addOnDestinationChangedListener { _,destination, argument ->
             if (destination.id == R.id.station_arrivals_dest){
-                title = StationArrivalsFragmentArgs.fromBundle(argument!!).station.name
+                title = StationArrivalsFragmentArgs.fromBundle(argument!!).station.name //navArgs 가져오기
                 binding.toolbar.toVisible()
             }else{
                 binding.toolbar.toGone()

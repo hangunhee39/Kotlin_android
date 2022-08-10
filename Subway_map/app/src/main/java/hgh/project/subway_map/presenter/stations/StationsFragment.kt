@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import androidx.core.widget.addTextChangedListener
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -82,9 +81,8 @@ class StationsFragment: ScopeFragment(), StationsContract.View {
         }
 
         (binding?.recyclerView?.adapter as? StationsAdapter)?.apply {
-            onItemClickListener = { station ->      //navigation 액션 실행(stationArrivals 창으로 이동)
-                val action = StationsFragmentDirections.toStationArrivalsAction(station)
-                StationsFragmentDirections
+            onItemClickListener = { station ->       //navigation 액션 실행(stationArrivals 창으로 이동)
+                val action = StationsFragmentDirections.toStationArrivalsAction(station) //intent 없이 데이터 전달
                 findNavController().navigate(action)
             }
             onFavoriteClickListener = { station ->

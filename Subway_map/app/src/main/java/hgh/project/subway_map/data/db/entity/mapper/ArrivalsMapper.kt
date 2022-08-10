@@ -6,6 +6,9 @@ import hgh.project.subway_map.domain.Subway
 import java.text.SimpleDateFormat
 import java.util.*
 
+/*
+    stationArrivalsApi.를 다루는 Mapping
+ */
 private val apiDateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.'0'", Locale.KOREA)
 private val dateFormat = SimpleDateFormat("HH:mm:ss", Locale.KOREA)
 

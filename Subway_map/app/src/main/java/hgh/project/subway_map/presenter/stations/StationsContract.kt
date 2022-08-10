@@ -12,7 +12,7 @@ interface StationsContract {
 
         fun hideLoadingIndicator()
 
-        fun showStations(Stations: List<Station>)
+        fun showStations(stations: List<Station>)
 
     }
 

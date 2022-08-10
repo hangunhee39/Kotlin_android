@@ -73,7 +73,6 @@ val appModule = module {
     scope<StationsFragment> {
         scoped<StationsContract.Presenter> { StationPresenter(getSource(), get()) } //프래그먼트 종료시 presenter 종료 , scope 내에서는 서로 공유 가능
     }
-
     scope<StationArrivalsFragment> {
         scoped<StationArrivalsContract.Presenter> { StationArrivalsPresenter(getSource(), get(), get()) }
     }
