@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">parcel</string>
+    <string name="none_tracking_item">추적 중인 택배가 없어요</string>
+    <string name="add_tracking_item_button">운송장 번호 추가</string>
+</resources>
