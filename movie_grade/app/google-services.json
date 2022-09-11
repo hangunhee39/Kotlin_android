@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "192836416778",
+    "project_id": "subwaymap-248ea",
+    "storage_bucket": "subwaymap-248ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192836416778:android:e783739b14c3836ae076f3",
+        "android_client_info": {
+          "package_name": "hgh.project.movie_grade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192836416778-nt8ds2mgns4k5625p95m6gv8qdba7ca7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFMcCOpxnS1CgBlMT2hL1ANtPpC6OQ87A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192836416778-nt8ds2mgns4k5625p95m6gv8qdba7ca7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192836416778:android:427d2aa581654ba3e076f3",
+        "android_client_info": {
+          "package_name": "hgh.project.subway_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192836416778-nt8ds2mgns4k5625p95m6gv8qdba7ca7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFMcCOpxnS1CgBlMT2hL1ANtPpC6OQ87A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192836416778-nt8ds2mgns4k5625p95m6gv8qdba7ca7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

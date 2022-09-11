@@ -3,4 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="home">홈</string>
+    <string name="my_page">마이페이지</string>
+    <string name="movie_review">리뷰</string>
 </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/home_dest">
+
+    <fragment
+        android:id="@+id/home_dest"
+        android:name="hgh.project.movie_grade.presentation.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@id/to_movie_review_action"
+            app:destination="@id/movie_review_dest"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/my_page_dest"
+        android:name="hgh.project.movie_grade.presentation.mypage.MyPageFragment"
+        android:label="@string/my_page"
+        tools:layout="@layout/fragment_my_page">
+
+        <action
+            android:id="@+id/to_movie_review_action"
+            app:destination="@id/movie_review_dest"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/movie_review_dest"
+        android:name="hgh.project.movie_grade.presentation.review.MovieReviewFragment"
+        android:label="@string/movie_review"
+        tools:layout="@layout/fragment_movie_review">
+
+        <argument
+            android:name="movie"
+            app:argType="hgh.project.movie_grade.domain.model.Movie" />
+
+    </fragment>
+
+</navigation>

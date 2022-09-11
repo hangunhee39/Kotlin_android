@@ -3,7 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.124" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/ic_baseline_local_movies_24.xml" value="0.1075" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/ic_baseline_people_24.xml" value="0.1" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1045" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/ic_baseline_star_12.xml" value="0.1045" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/drawable/shape_review_content.xml" value="0.1045" />
         <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/fragment_dashboard.xml" value="0.36614583333333334" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/fragment_home.xml" value="0.19479166666666667" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/fragment_movie_review.xml" value="0.19479166666666667" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/fragment_my_page.xml" value="0.1875" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/fragment_notifications.xml" value="0.36614583333333334" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_featured_movie.xml" value="0.18697916666666667" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_movie.xml" value="0.25" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_movie_information.xml" value="0.365625" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_my_review.xml" value="0.365625" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_review.xml" value="0.365625" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_review_form.xml" value="0.365625" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_review_result.xml" value="0.365625" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/layout/item_reviewed_movie.xml" value="0.365625" />
+        <entry key="..\:/Kotlin_android/movie_grade/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.19479166666666667" />
       </map>
     </option>
   </component>
